@@ -15,7 +15,7 @@
         echo "Conexion exitosa";
     }
 
-    $sql = "INSERT INTO usuarios VALUES ('chris@mail.com','".sha1("chris")."','empleado')";
+    $sql = "INSERT INTO usuarios VALUES ('Rafa@mail.com','".sha1("chris")."','empleado')";
     if(mysqli_query($db,$sql))
     {
         echo " Nuevo registro creado exitosamente";
